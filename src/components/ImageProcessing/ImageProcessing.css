@@ -1,0 +1,20 @@
+.capture {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #bedaff;
+    border-color: white;
+    border-radius: 10px;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.measure {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #bedaff;
+    border-color: white;
+    border-radius: 10px;
+    font-family: "Silkscreen", sans-serif;
+}
