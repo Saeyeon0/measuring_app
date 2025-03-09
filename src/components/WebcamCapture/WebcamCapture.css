@@ -1,7 +1,7 @@
 .button-container {
     position: absolute;
     top: 10px;
-    z-index: 10; /* Ensure buttons are on top */
+    z-index: 10;
 }
 
 .zoom {
@@ -21,7 +21,6 @@
     cursor: pointer;
 }
 
-/* Style for the video element */
 .video-container {
     width: 90%;
     height: 90%;
@@ -35,11 +34,10 @@
     margin: 0 auto;
 }
 
-/* Apply zoom effect only to the camera view */
 .video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the video scales but maintains aspect ratio */
-    transition: transform 0.2s ease; /* Smooth transition */
-    transform-origin: center center; /* Zoom effect centered on the camera view */
+    object-fit: cover;
+    transition: transform 0.2s ease;
+    transform-origin: center center;
 }
